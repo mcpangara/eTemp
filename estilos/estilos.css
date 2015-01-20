@@ -1,0 +1,17 @@
+a {
+	text-decoration:none;
+	color:blue;
+}
+a:hover {
+	color:white;
+	background:blue;
+}
+
+th {
+	background:#bbbbbb;
+}
+
+.cuerpo { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}

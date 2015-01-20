@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"> 
+<html lang="es">
+    <head>
+		<meta content="text/html;" http-equiv="content-type" charset="utf-8"> 
+        <title>Pagina Inicial</title>
+        <link rel=stylesheet type="text/css" href="estilos/estilosLogin.css">
+    </head>
+    <body onLoad="document.frmUsuario['usuario'].focus();">
+        <div>
+			<div id="cabecera">Ingreso al Sistema</div><br>
+            <form method="POST" action="verificar.php" name="frmUsuario" accept-charset="UTF-8">
+				<center>
+                <table border="0" width="50%"  cellspacing="0" cellpadding="0">
+                    <tr><td></td></tr>
+                    <tr><td><div id="celda"><input type="text" name="usuario" value="" size="25" placeholder="Nombre de Usuario"></div></td></tr>
+                    <tr><td><div id="celda"><input type="password" name="password" value="" size="25" placeholder="Clave"></div></td></tr>
+                    <tr id="fila"><td></td></tr>
+                    <tr><td><div id="celda"><input type="text" name="email" value="" size="25" placeholder="Direccion de Correo"></div></td></tr>
+                    <tr><td></td></tr>
+                    <tr><td><div id="celda"><button>Iniciar Sesion</button></div></td></tr>
+                    <tr id="fila"><td></td></tr>
+                </table>
+				</center>
+            </form>
+        </div>
+	</body>
+</html>

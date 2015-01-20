@@ -1,0 +1,80 @@
+a {
+	text-decoration:none;
+	color:blue;
+}
+a:hover {
+	color:white;
+	background:blue;
+}
+
+.cuerpo { 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+#cabecera{
+	color:blue;
+	text-align:center;
+	border-width:0px;
+	width:255px;
+	height:20px;
+	font-size: 20px;
+}
+div {
+	background:#eeeeee;
+	width:260px;
+	border-width:1px;
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px;
+	border-style:solid;
+	border-color:#aaaaff;
+	margin:2px;
+	padding:2px;
+	margin:0 auto;
+	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+}
+#celda{
+	border-width:0px;
+	margin:5px;
+	padding:0px;
+	margin:0 auto;
+	text-align:center;
+	width:250px;
+}
+span {
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+tr {
+	height:40px;
+}
+#fila {
+	height:15px;
+}
+button {
+	height:40px;
+	width:200px;
+	background:#3399ff;
+	color:#ffffff;
+	border:1;
+	text-align:center;
+}
+button:hover { 
+ 	color:#ffffff;
+	border: 1px solid  #0000ff; 
+	font-weight: bold;
+	display: inline-block;
+}
+input {
+	height:40px;
+	width:200px;
+	font:bold;
+	font-size:14px;
+	font-family:Arial;		
+	margin:0px;
+	padding:5px;
+}

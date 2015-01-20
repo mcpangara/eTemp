@@ -1,0 +1,313 @@
+/* 
+    Document   : style
+    Created on : 5/09/2013, 09:50:43 AM
+    Author     : Usuario
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+header, nav, section, article, aside, footer {
+    display: block;
+}
+
+a {
+    color: blue;
+    outline: none;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    background: #F1F1F1;
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    width: 1300px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    height: 100px;
+    background: #F1F1F1;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    line-height: 60px;
+    color: blue;
+}
+
+#subtitulo {
+    font-size: 20px;
+}
+
+/* Middle
+-----------------------------------------------------------------------------*/
+#content {
+    padding-top: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+    border-top: 1px solid black;
+}
+
+div.tablaCentrada{
+    text-align: center;
+}
+
+div.tablaCentrada table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.tablaCentradaBorde{
+    text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+div.tablaCentradaBorde table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+input.inputFecha {
+    vertical-align: middle;
+    text-align: center;
+    width: 80px;
+    height: 20px;
+}
+
+input {
+    vertical-align: middle;
+    height: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+textarea {
+    text-align: left;
+}
+
+select.pequeno{
+   vertical-align: middle;
+    height: 22px;
+    width: 40px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+select.estado{
+   vertical-align: middle;
+    height: 22px;
+    width: 150px;
+    margin-left: 5px;
+    margin-right: 5px; 
+ }
+
+select.equipo{
+   vertical-align: middle;
+    height: 22px;
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px; 
+}
+
+.campoSoloLectura{
+    border: none;
+    background: #F1F1F1;
+    text-align: left;
+    font-weight: 600;
+    font-style: italic;
+    color: black;
+ }
+ 
+ .campoSoloLecturaRosado{
+    border: none;
+    text-align: left;
+    background: #FFCCCC;
+    font-weight: 400;
+    font-style: italic;
+    color: black;
+ }
+ 
+ img {
+    border: none;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+p{
+    height: 45px;  
+}
+
+th{
+   text-align: left; 
+}
+
+tr.filaBoton{
+   height: 45px;
+}
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    width: 1300px;
+    margin: -50px auto 0;
+    height: 50px;
+    position: relative;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    font-style: italic; 
+    border-top: 1px solid black;
+}
+
+.buttonAccion {
+    background-color:#ddddff;
+    border-width:1px;
+    border-left-width:1px;
+    border-top-width:1px;
+    border-right-width:1px;
+    border-bottom-width:1px;
+    border-style:solid;
+    border-color:#bbbbff;
+    font-style:normal;
+    width: 105px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.buttonAccion:hover {
+    border-color: #071869;
+    background: blue;
+    font-style:italic;
+    font-weight: bold;
+    color: #fcfcfc;
+}
+
+.buttonAccionActivo {
+  background-color:#ffcccc;
+  color:#ffffff;
+  font-style:normal;
+  width: 105px;
+  height: 30px;
+  border-width:1px;
+  border-left-width:1px;
+  border-top-width:1px;
+  border-right-width:1px;
+  border-bottom-width:1px;
+  border-style:solid;
+  border-color:#bbbbff;
+}
+
+div.tablaCentradaTamanoGrande{
+    margin-top: 10px;
+    text-align: center;
+    height: 340px;
+    overflow-y: auto;
+}
+
+div.tablaCentradaTamanoGrande table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.tablaCentradaTamanoMediano{
+    margin-top: 10px;
+    text-align: center;
+    height: 275px;
+    overflow-y: auto;
+}
+
+div.tablaCentradaTamanoMediano table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+div.tablaCentradaTamanoPequeno{
+    margin-top: 10px;
+    text-align: center;
+    height: 230px;
+    overflow-y: auto;
+}
+
+div.tablaCentradaTamanoPequeno table {
+    margin: 0 auto;
+    text-align: left;
+}
+
+.textarea{
+    resize: none;
+}
+
+div.tablaCentradaConceptos{
+    text-align: left;
+    height: 200px;
+    width: 100%;
+    overflow-y: auto;
+    font-size: 12px;
+}
+
+div.tablaCentradaTercerosPequena{
+    text-align: left;
+    height: 170px;
+    width: 50%;
+    overflow-y: auto;
+    font-size: 12px;
+    margin:10px auto 0 auto; 
+}
+
+div.tablaCentradaTerceros{
+    text-align: left;
+    height: 340px;
+    width: 50%;
+    overflow-y: auto;
+    font-size: 12px;
+    margin:10px auto 0 auto; 
+}
+
+.campoSoloLecturaNumero1{
+    border: none;
+    text-align: left;
+    font-size: 10px;
+    font-style: normal;
+    background: #F1F1F1;
+    color: blue;
+ }
+ 
+ .campoSoloLecturaNumero2{
+    border: none;
+    text-align: left;
+    font-size: 10px;
+    font-style: normal;
+    background: #F1F1F1;
+    color: blue;
+ }
+ 
+ div.tablaCentradaConceptosPrincipal{
+    margin-top: 10px;
+    text-align: center;
+    width: 70%;
+    margin:10px auto 0 auto; 
+}
